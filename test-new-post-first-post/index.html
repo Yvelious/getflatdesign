@@ -1,33 +1,38 @@
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>Test! New post! First post</title>
-    <meta name="description" content="">
+    <meta name="description" content="" />
 
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../assets/css/default.min.css?v=e9f21d8352" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=a366a4cb90">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+    <!-- TODO: Setup favicon for apple device -->
 
-    <link rel="canonical" href="http://localhost:2368/test-new-post-first-post/">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico?v=e9f21d8352" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico?v=e9f21d8352" />
+
+    <link rel="canonical" href="http://localhost:2368/test-new-post-first-post/" />
     
-    <meta property="og:site_name" content="Get Flat Design">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Test! New post! First post">
-    <meta property="og:description" content="test italic...">
-    <meta property="og:url" content="http://localhost:2368/test-new-post-first-post/">
-    <meta property="article:published_time" content="2014-12-06T09:26:12.975Z">
-    <meta property="article:modified_time" content="2014-12-06T09:26:12.974Z">
+    <meta property="og:site_name" content="Get Flat Design" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Test! New post! First post" />
+    <meta property="og:description" content="test italic..." />
+    <meta property="og:url" content="http://localhost:2368/test-new-post-first-post/" />
+    <meta property="article:published_time" content="2014-12-06T09:26:12.975Z" />
+    <meta property="article:modified_time" content="2014-12-06T09:26:12.974Z" />
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Test! New post! First post">
-    <meta name="twitter:description" content="test italic...">
-    <meta name="twitter:url" content="http://localhost:2368/test-new-post-first-post/">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Test! New post! First post" />
+    <meta name="twitter:description" content="test italic..." />
+    <meta name="twitter:url" content="http://localhost:2368/test-new-post-first-post/" />
     
     <script type="application/ld+json">
 {
@@ -48,82 +53,129 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 0.5">
-    <link rel="alternate" type="application/rss+xml" title="Get Flat Design" href="../rss/index.html">
-</head>
-<body class="post-template">
+    <meta name="generator" content="Ghost 0.5" />
+    <link rel="alternate" type="application/rss+xml" title="Get Flat Design" href="../rss/index.html" />
 
+		<!-- load data from the server -->
+		<script>
+			window.techno = {
+				baseUrl: 'http://localhost:2368',
+				hbData: {
+					pagination: {
+						pages: ''
+					}
+				}
+			};
+		</script>
+    <!-- load client config -->
+		<script type="text/javascript" src="../assets/js/config.js?v=e9f21d8352"></script>
+		
+		<!-- Google analytics -->		
+    <script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			techno.config.google.analytics(ga);
+    </script>
     
-
-
-<header class="main-header post-head no-cover">
-    <nav class="main-nav  clearfix">
-        <a class="back-button icon-arrow-left" href="http://localhost:2368">Home</a>
-        <a class="subscribe-button icon-feed" href="http://localhost:2368/rss/">Subscribe</a>
+  </head>
+<body class="post-template">
+	
+    <nav class="site-nav" role="navigation">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://localhost:2368">
+                        <img class="logo" data-bind="attr: { src: config.logo}"/>
+                        Get Flat Design
+                    </a>
+                </div>
+                <div class="navbar-collapse navbar-responsive-collapse collapse" style="height: 1px;">
+                    <ul class="navbar-nav nav menu menu-main-menu" data-bind="foreach: config.menu">
+                      <li><a data-bind="attr: { href: route }, text: text"></a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input class="search" type="text" placeholder="Search..."/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           <div class="search-result panel panel-default">
+               <div class="panel-heading">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+               <h3 class="panel-title"></h3>
+               </div>
+               <ul class="list-group">
+               </ul>
+               <div class="dummy"></div>
+           </div>    </div>
     </nav>
-</header>
+    <div class="default-body">			
+    
 
 <main class="content" role="main">
 
     <article class="post">
 
-        <header class="post-header">
-            <h1 class="post-title">Test! New post! First post</h1>
-            <section class="post-meta">
-                <time class="post-date" datetime="2014-12-06">06 December 2014</time> 
-            </section>
-        </header>
 
-        <section class="post-content">
-            <h1 id="test">test</h1>
+            <span class="metaheader">
+            <i class="fa fa-calendar"></i> <time datetime="2014-12-06">Dec 6th, 2014</time>
+            <i class="fa fa-user"></i> <a href="../author/yvelious/index.html">Yvelious</a>
+            </span>
+                                   <h1 class="post-title">Test! New post! First post</h1>
+
+            <section class="post-content">
+                <h1 id="test">test</h1>
 
 <p><em>italic</em></p>
-        </section>
-
-        <footer class="post-footer">
-
-
-
-            <section class="author">
-                <h4><a href="../author/yvelious/">Yvelious</a></h4>
-
-                    <p>Read <a href="../author/yvelious/">more posts</a> by this author.</p>
-                <div class="author-meta">
-                    
-                    
-                </div>
             </section>
 
-
-            <section class="share">
-                <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/share?text=Test!%20New%20post!%20First%20post&amp;url=http://localhost:2368/test-new-post-first-post/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    <span class="hidden">Twitter</span>
-                </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/test-new-post-first-post/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    <span class="hidden">Facebook</span>
-                </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/test-new-post-first-post/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                    <span class="hidden">Google+</span>
-                </a>
-            </section>
-
-        </footer>
+            <span class="metafooter">
+            
+            
+            </span>
+                       
+            <div id="disqus_thread" class="post-comments"></div>
+            <script type="text/javascript">
+                var disqus_url = window.techno.baseUrl;
+                var disqus_shortname = techno.config.disqus.shortname;
+                var disqus_identifier = '2';
+            
+                var disqus = {
+                    load: function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    }
+                };
+                disqus.load();
+            </script>
 
     </article>
 
 </main>
 
-
-
-    <footer class="site-footer clearfix">
-         <section class="copyright"><a href="http://localhost:2368">Get Flat Design</a> © 2014</section>
-         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+    <footer class="site-footer">
+        <div class="label label-default">
+         <div><a href="http://localhost:2368/">Get Flat Design</a> &copy; 2014 &bull; All rights reserved.</div>
+         <div>Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a> and <a href="https://github.com/mronemous/ghost-theme-techno">Techno</a> theme.</div>
+        </div>
     </footer>
 
-    <script src="../public/jquery.js?v=a366a4cb90"></script>
+    
 
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=a366a4cb90"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=a366a4cb90"></script>
+    <script type="text/javascript" src="../assets/js/scripts.min.js?v=e9f21d8352"></script>
+			
+    </div>
 
 </body>
+</html>
