@@ -4,35 +4,35 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Test! New post! First post</title>
+    <title>test about</title>
     <meta name="description" content="" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/default.min.css?v=a45030650b" />
+    <link rel="stylesheet" type="text/css" href="assets/css/default.min.css?v=a45030650b" />
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
 
     <!-- TODO: Setup favicon for apple device -->
 
-    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico?v=a45030650b" />
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico?v=a45030650b" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico?v=a45030650b" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico?v=a45030650b" />
 
-    <link rel="canonical" href="http://getflatdesign.com/test-new-post-first-post/" />
+    <link rel="canonical" href="http://getflatdesign.com/about-test/" />
     
     <meta property="og:site_name" content="Get Flat Design" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Test! New post! First post" />
-    <meta property="og:description" content="test italic..." />
-    <meta property="og:url" content="http://getflatdesign.com/test-new-post-first-post/" />
-    <meta property="article:published_time" content="2014-12-06T09:26:12.975Z" />
-    <meta property="article:modified_time" content="2014-12-06T09:26:12.974Z" />
+    <meta property="og:title" content="test about" />
+    <meta property="og:description" content="Abot..." />
+    <meta property="og:url" content="http://getflatdesign.com/about-test/" />
+    <meta property="article:published_time" content="2014-12-07T12:59:00.000Z" />
+    <meta property="article:modified_time" content="2014-12-07T14:49:00.035Z" />
     
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Test! New post! First post" />
-    <meta name="twitter:description" content="test italic..." />
-    <meta name="twitter:url" content="http://getflatdesign.com/test-new-post-first-post/" />
+    <meta name="twitter:title" content="test about" />
+    <meta name="twitter:description" content="Abot..." />
+    <meta name="twitter:url" content="http://getflatdesign.com/about-test/" />
     
     <script type="application/ld+json">
 {
@@ -45,16 +45,16 @@
         "url": "http://getflatdesign.com/author/yvelious",
         "sameAs": null
     },
-    "headline": "Test! New post! First post",
-    "url": "http://getflatdesign.com/test-new-post-first-post/",
-    "datePublished": "2014-12-06T09:26:12.975Z",
-    "dateModified": "2014-12-06T09:26:12.974Z",
-    "description": "test italic..."
+    "headline": "test about",
+    "url": "http://getflatdesign.com/about-test/",
+    "datePublished": "2014-12-07T12:59:00.000Z",
+    "dateModified": "2014-12-07T14:49:00.035Z",
+    "description": "Abot..."
 }
     </script>
 
     <meta name="generator" content="Ghost 0.5" />
-    <link rel="alternate" type="application/rss+xml" title="Get Flat Design" href="../rss/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Get Flat Design" href="rss/index.html" />
 
 		<!-- load data from the server -->
 		<script>
@@ -68,7 +68,7 @@
 			};
 		</script>
     <!-- load client config -->
-		<script type="text/javascript" src="../assets/js/config.js?v=a45030650b"></script>
+		<script type="text/javascript" src="assets/js/config.js?v=a45030650b"></script>
 		
 		<!-- Google analytics -->		
     <script>
@@ -81,7 +81,7 @@
     </script>
     
   </head>
-<body class="post-template">
+<body class="post-template page-template page">
 	
     <nav class="site-nav" role="navigation">
         <div class="navbar navbar-default navbar-fixed-top">
@@ -101,7 +101,7 @@
                 <div class="navbar-collapse navbar-responsive-collapse collapse" style="height: 1px;">
                     <ul class="navbar-nav nav menu menu-main-menu" data-bind="foreach: config.menu">
                       <li><a data-bind="attr: { href: route }, text: text"></a></li>
-                      <li><a href="http://127.0.0.1:2368/test-new-post-first-post/about-test">about-test</a></li>
+                      <li><a href="http://127.0.0.1:2368/about-test/about-test">about-test</a></li>
                     </ul>
                     <form class="navbar-form navbar-right" role="search">
                         <div class="form-group">
@@ -125,41 +125,13 @@
 
 <main class="content" role="main">
 
-    <article class="post">
+    <article class="post page">
 
+        <h1 class="post-title">test about</h1>
+        <section class="post-content">
+            <h1 id="abot">Abot</h1>
+        </section>
 
-            <span class="metaheader">
-            <i class="fa fa-calendar"></i> <time datetime="2014-12-06">Dec 6th, 2014</time>
-            <i class="fa fa-user"></i> <a href="../author/yvelious/index.html">Yvelious</a>
-            </span>
-                                   <h1 class="post-title">Test! New post! First post</h1>
-
-            <section class="post-content">
-                <h1 id="test">test</h1>
-
-<p><em>italic</em></p>
-            </section>
-
-            <span class="metafooter">
-            
-            
-            </span>
-                       
-            <div id="disqus_thread" class="post-comments"></div>
-            <script type="text/javascript">
-                var disqus_url = window.techno.baseUrl;
-                var disqus_shortname = techno.config.disqus.shortname;
-                var disqus_identifier = '2';
-            
-                var disqus = {
-                    load: function() {
-                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    }
-                };
-                disqus.load();
-            </script>
 
     </article>
 
@@ -174,7 +146,7 @@
 
     
 
-    <script type="text/javascript" src="../assets/js/scripts.min.js?v=a45030650b"></script>
+    <script type="text/javascript" src="assets/js/scripts.min.js?v=a45030650b"></script>
 			
     </div>
 
